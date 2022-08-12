@@ -137,9 +137,9 @@ This two pins have to be **logic level shifted**. PS2 port is 5V logic level and
 
 Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/
 
-![Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/](/LogicLevelShifter.png)
+![Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/](/assets/LogicLevelShifter.png)
 
 ## My prototype
-![My prototype](/HWPrototype.jpg)
+![My prototype](/assets/HWPrototype.jpg)
 
 
