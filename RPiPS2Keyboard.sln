@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPiPS2Keyboard", "RPiPS2Key
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPiPS2Com", "RPiPS2Com\RPiPS2Com.csproj", "{0A0A0427-C8C4-4F20-A660-24C807883F99}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Položky řešení", "{B17678C6-83B1-4AC6-98F6-EB5026B20C12}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
