@@ -25,7 +25,7 @@ You can create application to send UDP broadcast message like "RPiPS2Kbd|1|Hello
 
    `$crontab -e`
    
-   add this line to the end `@reboot /home/pi/.dotnet/dotnet /home/pi/ps2keyboard.dll >> /home/pi/ps2keyboard/my.log 2>&1`
+   add this line to the end `@reboot /home/pi/.dotnet/dotnet /home/pi/ps2keyboard/RPiPS2Keyboard.dll >> /home/pi/ps2keyboard/my.log 2>&1`
    
 5. Connect Raspberry Pi to Wifi:
 
@@ -95,7 +95,7 @@ You can create application to send UDP broadcast message like "RPiPS2Kbd|1|Hello
 
    `$crontab -e`
    
-   add this line to the end `@reboot /home/pi/.dotnet/dotnet /home/pi/ps2keyboard.dll >> /home/pi/ps2keyboard/my.log 2>&1`
+   add this line to the end `@reboot /home/pi/.dotnet/dotnet /home/pi/ps2keyboard/RPiPS2Keyboard.dll >> /home/pi/ps2keyboard/my.log 2>&1`
    
 10. Copy RPiPS2Keyboard project published files to Raspberry Pi:
 
