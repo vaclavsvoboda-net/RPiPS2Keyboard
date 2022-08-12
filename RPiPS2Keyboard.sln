@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPiPS2Keyboard", "RPiPS2Keyboard\RPiPS2Keyboard.csproj", "{AB95CE18-13D3-4E0C-AB77-B91503B99E21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPiPS2Com", "RPiPS2Com\RPiPS2Com.csproj", "{0A0A0427-C8C4-4F20-A660-24C807883F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Položky řešení", "{B17678C6-83B1-4AC6-98F6-EB5026B20C12}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB95CE18-13D3-4E0C-AB77-B91503B99E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB95CE18-13D3-4E0C-AB77-B91503B99E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB95CE18-13D3-4E0C-AB77-B91503B99E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB95CE18-13D3-4E0C-AB77-B91503B99E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A0A0427-C8C4-4F20-A660-24C807883F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A0A0427-C8C4-4F20-A660-24C807883F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A0A0427-C8C4-4F20-A660-24C807883F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A0A0427-C8C4-4F20-A660-24C807883F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA411149-BE10-488B-80D0-FC1D64BCC67D}
+	EndGlobalSection
+EndGlobal
