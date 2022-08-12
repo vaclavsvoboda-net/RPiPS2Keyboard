@@ -140,6 +140,6 @@ Something like this picture from https://www.electroschematics.com/bidirectional
 ![Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/](/LogicLevelShifter.png)
 
 ## My prototype
-![My prototype](/HWPrototype.png)
+![My prototype](/HWPrototype.jpg)
 
 
