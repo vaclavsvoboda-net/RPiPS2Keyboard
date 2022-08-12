@@ -109,3 +109,36 @@ You can create application to send UDP broadcast message like "RPiPS2Kbd|1|Hello
 
 
 ## Setup Raspberry Pi - HW
+
+**Pins mapping:**
+
+GPIO25 - App is running LED diode (in my case green LED + 220ohm resistor)
+
+GPIO07 - Network is available LED diode (in my case green LED + 220ohm resistor)
+
+GPIO21 - Test button (for test that PS2 interface is OK, write "a" and "ENTER" to port)
+
+GPIO05 - Indicate keyboard Id = 1
+
+GPIO05 - Indicate keyboard Id = 2
+
+GPIO05 - Indicate keyboard Id = 3
+
+GPIO05 - Indicate keyboard Id = 4
+
+
+**!!!IMPORTANT!!!**
+
+GPIO24 - PS2 Clock
+
+GPIO23 - PS2 Data
+
+This two pins have to be **logic level shifted**. PS2 port is 5V logic level and Raspberry Pi is 3.3V logic level.
+
+Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/
+
+![Something like this picture from https://www.electroschematics.com/bidirectional-logic-level-shifter/](/LogicLevelShifter.png)
+
+
+
+
