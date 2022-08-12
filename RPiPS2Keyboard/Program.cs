@@ -37,7 +37,7 @@ namespace RPiPS2Keyboard
             // App running LED
             if (!Controller.IsPinModeSupported(PinAppRunLED, PinMode.Output))
             {
-                Console.WriteLine($"Gpio pin {PinAppRunLED} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinAppRunLED} can not be set.");
                 return;
             }
             else
@@ -49,7 +49,7 @@ namespace RPiPS2Keyboard
             // Network LED
             if (!Controller.IsPinModeSupported(PinNetworkLED, PinMode.Output))
             {
-                Console.WriteLine($"Gpio pin {PinNetworkLED} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinNetworkLED} can not be set.");
                 return;
             }
             else
@@ -61,7 +61,7 @@ namespace RPiPS2Keyboard
             // Test button
             if (!Controller.IsPinModeSupported(PinTestButton, PinMode.InputPullUp))
             {
-                Console.WriteLine($"Gpio pin {PinTestButton} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinTestButton} can not be set.");
                 return;
             }
             else
@@ -72,7 +72,7 @@ namespace RPiPS2Keyboard
             // Keyboard 1 jumper
             if (!Controller.IsPinModeSupported(PinKeyboard1, PinMode.InputPullDown))
             {
-                Console.WriteLine($"Gpio pin {PinKeyboard1} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinKeyboard1} can not be set.");
                 return;
             }
             else
@@ -83,7 +83,7 @@ namespace RPiPS2Keyboard
             // Keyboard 2 jumper
             if (!Controller.IsPinModeSupported(PinKeyboard2, PinMode.InputPullDown))
             {
-                Console.WriteLine($"Gpio pin {PinKeyboard2} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinKeyboard2} can not be set.");
                 return;
             }
             else
@@ -94,7 +94,7 @@ namespace RPiPS2Keyboard
             // Keyboard 3 jumper
             if (!Controller.IsPinModeSupported(PinKeyboard3, PinMode.InputPullDown)) 
             {
-                Console.WriteLine($"Gpio pin {PinKeyboard3} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinKeyboard3} can not be set.");
                 return;
             }
             else
@@ -105,7 +105,7 @@ namespace RPiPS2Keyboard
             // Keyboard 4 jumper
             if (!Controller.IsPinModeSupported(PinKeyboard4, PinMode.InputPullDown)) 
             {
-                Console.WriteLine($"Gpio pin {PinKeyboard4} can not bo set.");
+                Console.WriteLine($"Gpio pin {PinKeyboard4} can not be set.");
                 return;
             }
             else
