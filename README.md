@@ -62,7 +62,7 @@ Text: **Your text to write**
 ## Setup Reaspbrry Pi - SW   (without monitor, with SSH, PowerShell, Nmap)
 1. Write "Raspberry Pi OS Lite (64-bit)" to SD card using Raspberry Pi Imager.
 
-   **You can setup SSH Network and the other things directly in Rapberry Pi Imager, then you can skip 3 and 5.**
+   **You can setup SSH, Network and the other things directly in Rapberry Pi Imager, then you can skip 3 and 5.**
 
 2. Plug SD card to your desktop machine.
 3. Find drive named "boot" and create two files there:
