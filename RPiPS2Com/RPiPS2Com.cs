@@ -230,7 +230,7 @@ namespace RPiPS2Comunication
                     }
             }
 
-            if (Enum.TryParse(typeof(Buttons), value.ToString(), out object? newValue))
+            if (Enum.TryParse(typeof(Buttons), value, out object? newValue))
             {
                 return newValue == null ? 0 : (Buttons)newValue;
             }
