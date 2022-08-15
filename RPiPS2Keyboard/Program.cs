@@ -125,6 +125,7 @@ namespace RPiPS2Keyboard
 
             while (true) 
             {
+                Thread.Sleep(50);
                 if (stopwatch1000ms.ElapsedMilliseconds > 1000)
                 {
                     AppRunLED = !AppRunLED;
