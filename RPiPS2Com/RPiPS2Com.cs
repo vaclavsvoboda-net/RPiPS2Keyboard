@@ -67,7 +67,7 @@ namespace RPiPS2Comunication
             foreach (char ch in value)
             {
                 char chUpper = Char.ToUpper(ch);
-                Buttons button = GetButton(chUpper);
+                Buttons button = GetButton(chUpper.ToString());
                 if (button != 0)
                 {
                     if (Char.IsUpper(ch))
@@ -174,8 +174,62 @@ namespace RPiPS2Comunication
             stopwatch.Start();
             while (stopwatch.ElapsedTicks < ticks) { }
         }
-        private Buttons GetButton(char value)
+        private Buttons GetButton(string value)
         {
+            switch (value)
+            {
+                case "0":
+                    {
+                        value = "ZERO";
+                        break;
+                    }
+                case "1":
+                    {
+                        value = "ONE";
+                        break;
+                    }
+                case "2":
+                    {
+                        value = "TWO";
+                        break;
+                    }
+                case "3":
+                    {
+                        value = "THREE";
+                        break;
+                    }
+                case "4":
+                    {
+                        value = "FOUR";
+                        break;
+                    }
+                case "5":
+                    {
+                        value = "FIVE";
+                        break;
+                    }
+                case "6":
+                    {
+                        value = "SIX";
+                        break;
+                    }
+                case "7":
+                    {
+                        value = "SEVEN";
+                        break;
+                    }
+                case "8":
+                    {
+                        value = "EIGHT";
+                        break;
+                    }
+                case "9":
+                    {
+                        value = "NINE";
+                        break;
+                    }
+            }
+
             if (Enum.TryParse(typeof(Buttons), value.ToString(), out object? newValue))
             {
                 return newValue == null ? 0 : (Buttons)newValue;
