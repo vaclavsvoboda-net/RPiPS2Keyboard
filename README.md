@@ -1,9 +1,9 @@
 # RPiPS2Keyboard
-Raspberry Pi 4 - PS2 Keyboard emulator
+Raspberry Pi 4 - PS/2 Keyboard emulator
 
-This project was originally created to emulate keyboard for REVEX devices. User easily scan code with ZEBRA device and Raspberry Pi push it to PS2 port.
+This project was originally created to emulate keyboard for REVEX devices. User easily scan code with ZEBRA device and Raspberry Pi push it to PS/2 port.
 
-You can create application to send UDP broadcast message like `RPiPS2Kbd|1|Hello world!` to port 54321 and Raspberry Pi receive it and push it to PS2 port.
+You can create application to send UDP broadcast message like `RPiPS2Kbd|1|Hello world!` to port 54321 and Raspberry Pi receive it and push it to PS/2 port.
 
 **Message format:**
 
